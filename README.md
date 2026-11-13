@@ -64,7 +64,6 @@ tests/                        59 automated tests (API + browser-level UI)
 scripts/                      db:migrate, db:seed, db:reset, db:backup, db:restore, db:check, check
 docs/                         architecture, deviations, operations, troubleshooting, API, traceability
 development/                  your original planning & design documents (untouched)
-legacy/                       the original static prototype and Replit scaffold, kept for reference
 ```
 
 ## Commands
