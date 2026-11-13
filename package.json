@@ -1,0 +1,28 @@
+{
+  "name": "au-lab",
+  "version": "1.0.0",
+  "description": "AU·LAB — Web-Based Laboratory Inventory and Resource Management System (Arellano University)",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20.12" },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "db:migrate": "node scripts/migrate.js",
+    "db:seed": "node scripts/seed.js",
+    "db:reset": "node scripts/reset-db.js",
+    "db:backup": "node scripts/backup.js",
+    "db:restore": "node scripts/restore.js",
+    "db:check": "node scripts/check-integrity.js",
+    "check": "node scripts/check-syntax.js",
+    "test": "node --test --test-concurrency=1 tests/*.test.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "express": "^5.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  }
+}
