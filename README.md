@@ -419,7 +419,6 @@ tests/         59 automated tests (API + browser-level UI)
 scripts/       command-line tools (db:backup, db:restore, db:reset, db:check …)
 docs/          ARCHITECTURE, API, DEVIATIONS, OPERATIONS, TROUBLESHOOTING, TRACEABILITY
 development/   your original planning & design documents (untouched)
-legacy/        the original static prototype, kept for reference
 data/  logs/   the database + backups, and the server log (created at runtime)
 ```
 
