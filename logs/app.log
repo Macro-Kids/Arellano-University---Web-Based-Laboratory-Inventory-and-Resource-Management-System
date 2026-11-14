@@ -1,8 +1,1 @@
 
-{"time":"2026-11-14T06:25:24.485Z","level":"info","scope":"db","message":"database opened","meta":{"file":"/home/herhtlecassidymvaldez/Documents/htdocs/AU-LAB/Arellano-University---Web-Based-Laboratory-Inventory-and-Resource-Management-System/data/aulab.sqlite"}}
-{"time":"2026-11-14T06:25:24.499Z","level":"info","scope":"server","message":"integrity check passed","meta":{"checks":17,"schemaVersion":1}}
-{"time":"2026-11-14T06:25:24.584Z","level":"info","scope":"server","message":"AU·LAB listening on http://localhost:3000","meta":{"env":"development","db":"/home/herhtlecassidymvaldez/Documents/htdocs/AU-LAB/Arellano-University---Web-Based-Laboratory-Inventory-and-Resource-Management-System/data/aulab.sqlite","tz":"Asia/Manila"}}
-{"time":"2026-11-14T06:25:24.585Z","level":"info","scope":"server","message":"Demo sign-in: msantos / Demo@2026  (disable with SHOW_DEMO_LOGINS=0)"}
-{"time":"2026-11-14T06:25:42.174Z","level":"debug","scope":"http","message":"GET /api/system/meta 200 14ms","meta":{"rid":"aff0b836"}}
-{"time":"2026-11-14T06:25:42.212Z","level":"warn","scope":"http","message":"GET /api/auth/me 401 9ms","meta":{"rid":"e6e6eda2"}}
-{"time":"2026-11-14T06:25:42.245Z","level":"debug","scope":"http","message":"GET /api/auth/demo-accounts 200 5ms","meta":{"rid":"78ae871f"}}
